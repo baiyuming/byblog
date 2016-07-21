@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Common/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Conf/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Conf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Controller/IndexController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Controller/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Model/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Css/bycss.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Css/pintuer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Js/Jquery/jquery1.11.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Js/byjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Js/pintuer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Runtime/Logs/Home/16_07_21.log" afterPath="$PROJECT_DIR$/ByBlog/Runtime/Logs/Home/16_07_21.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/README.md" afterPath="$PROJECT_DIR$/Public/README.md" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -87,7 +84,45 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="bycss.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Css/bycss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="byjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Js/byjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,6 +132,9 @@
       <list>
         <option value="$PROJECT_DIR$/.ignore" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Public/Byblog/bycss.css" />
+        <option value="$PROJECT_DIR$/Public/Byblog/byjs.js" />
+        <option value="$PROJECT_DIR$/Public/README.md" />
       </list>
     </option>
   </component>
@@ -120,7 +158,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -166,6 +204,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ByBlog" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -179,9 +231,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\php\phpstudy\WWW\byblog\Public\Js" />
+      <recent name="F:\php\phpstudy\WWW\byblog\Public\Css" />
+      <recent name="F:\php\phpstudy\WWW\byblog\Public\Jquery" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\php\phpstudy\WWW\byblog\Public\Pintuer" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin" />
     </key>
   </component>
@@ -221,7 +280,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469078226845</updated>
-      <workItem from="1469078228265" duration="1284000" />
+      <workItem from="1469078228265" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1469079023997</created>
@@ -230,11 +289,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469079023997</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化">
+      <created>1469079528118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1469079528118</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1284000" />
+    <option name="totallyTimeSpent" value="1860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -361,6 +427,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Js/Jquery/jquery1.11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Pintuer/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1636">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Pintuer/拼图Pintuer-跨屏响应式布局前端开发CSS框架.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Css/pintuer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5874">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -368,6 +466,30 @@
           <folding>
             <marker date="1469079447534" expanded="true" signature="446:465" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Css/bycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Js/byjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
