@@ -3,6 +3,9 @@
 <head>
     <title>11</title>
     <include file = "./Public/Public_head_link"/>
+    <link href="__PUBLIC__/Plugin/highlight/androidstudio.css" rel="stylesheet"/>
+    <script src="__PUBLIC__/Plugin/highlight/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <include file = "./Public/Public_header"/>
@@ -24,6 +27,11 @@
 <script>
     document.getElementById('content').innerHTML =
             marked(document.getElementById('contentMd').innerHTML);
+    $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
 </script>
 </body>
 </html>
