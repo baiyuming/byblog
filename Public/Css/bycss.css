@@ -6,3 +6,9 @@ nav .button-collapse i{
 .hide-on-med-and-down li:last-child a{
     padding: 0 0 0 15px;
 }
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
