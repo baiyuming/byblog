@@ -8,10 +8,10 @@
 namespace Admin\Controller;
 use Think\Controller;
 class BlogController extends Controller {
-    public function index(){
-        $this -> display();
-    }
-    public function add(){
+//    public function index(){
+//        $this -> display();
+//    }
+    public function insert(){
         $Form   =   D('Form');
         if($Form->create()) {
             $result =   $Form->add();
