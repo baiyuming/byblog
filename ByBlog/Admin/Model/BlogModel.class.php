@@ -8,6 +8,8 @@
 
 namespace Home\Model;
 use Think\Model;
+
+
 class BlogModel extends Model {
     // 定义自动验证
     protected $_validate    =   array(

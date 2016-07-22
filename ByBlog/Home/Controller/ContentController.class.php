@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class ContentController extends Controller {
     public function content($id=2){
-        $Form   =   M('Form');
+        $Form   =   M('Article');
         // 读取数据
         $data =   $Form->find($id);
         //var_dump($data);
