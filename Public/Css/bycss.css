@@ -1,3 +1,8 @@
+@charset "utf-8";
+
 nav .button-collapse i{
     padding-left: 1rem;
+}
+.hide-on-med-and-down li:last-child a{
+    padding: 0 0 0 15px;
 }

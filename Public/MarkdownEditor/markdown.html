@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Marked in the browser</title>
+  <link rel="stylesheet" href="css.css">
+<script src="editor.js"></script>
+<script src="marked.js"></script>
+</head>
+<body>
+	<textarea></textarea>
+  <div id="content"></div>
+  <script>
+   var editor = new Editor();
+	editor.render();
+	
+	console.log(editor.codemirror.getValue());
+  </script>
+</body>
+</html>
