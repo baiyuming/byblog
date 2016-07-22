@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="加入markdown">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Model/BlogModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_foot_script.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_header.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/MarkdownEditor/webMarked/marked.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" afterPath="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Blog/index.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogModel.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlogModel.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Model/BlogModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -50,11 +53,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BlogController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Public_footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -87,7 +120,6 @@
         <option value="$PROJECT_DIR$/Public/Css/basic.css" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" />
         <option value="$PROJECT_DIR$/Public/Css/bycss.css" />
-        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html" />
         <option value="$PROJECT_DIR$/Public/Editor/editormd.js" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_foot_script.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_head_link.html" />
@@ -98,6 +130,8 @@
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Model/BlogModel.class.php" />
+        <option value="$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html" />
       </list>
     </option>
   </component>
@@ -217,7 +251,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
+              <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +269,29 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ByBlog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -264,10 +320,6 @@
               <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -288,54 +340,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="byblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="byblog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ByBlog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="byblog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="byblog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ByBlog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,11 +356,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Home\View\Public" />
       <recent name="F:\php\phpstudy\WWW\byblog\Public\MarkdownEditor\webMarked" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\View\Blog" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\View\Index" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\View" />
-      <recent name="F:\php\phpstudy\WWW\byblog\Public\MarkdownEditor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\View" />
@@ -409,7 +413,7 @@
       <option name="presentableId" value="Default" />
       <updated>1469078226845</updated>
       <workItem from="1469078228265" duration="11737000" />
-      <workItem from="1469152390425" duration="7748000" />
+      <workItem from="1469152390425" duration="8640000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1469079023997</created>
@@ -453,17 +457,24 @@
       <option name="project" value="LOCAL" />
       <updated>1469164426849</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="后台添加数据成功">
+      <created>1469167316410</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1469167316410</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19485000" />
+    <option name="totallyTimeSpent" value="20377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,7 +510,8 @@
     <MESSAGE value="更换 前端 框架 为 materialize" />
     <MESSAGE value="头部样式 字体库更换为 阿里" />
     <MESSAGE value="加入markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入markdown" />
+    <MESSAGE value="后台添加数据成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台添加数据成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -616,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Pintuer/readme.txt" />
     <entry file="file://$PROJECT_DIR$/Public/Pintuer/拼图Pintuer-跨屏响应式布局前端开发CSS框架.url" />
     <entry file="file://$PROJECT_DIR$/Public/Css/pintuer.css" />
@@ -630,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="169" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="169" />
         </state>
       </provider>
     </entry>
@@ -678,14 +676,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/Editor/style.css" />
-    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Editor/editormd.css" />
     <entry file="file://$PROJECT_DIR$/Public/Editor/lib/codemirror/lib/codemirror.js" />
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Parsedown.php">
@@ -815,6 +805,30 @@
           <folding>
             <element signature="e#6#84#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
