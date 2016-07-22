@@ -1,5 +1,5 @@
 <?php
-namespace User\Controller;
+namespace Admin\Controller;
 use Think\Controller;
 class LoginController extends Controller {
     // 登录控制器

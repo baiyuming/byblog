@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/Model/LoginModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Login/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="132">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="66">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -92,8 +91,8 @@
       <file leaf-file-name="ContentController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -176,8 +175,8 @@
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_footer.html" />
-        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Model/LoginModel.class.php" />
+        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" />
       </list>
     </option>
@@ -460,11 +459,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\View\Login" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\Controller" />
       <recent name="F:\php\phpstudy\WWW\byblog\Public\Plugin\highlight" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Home\View\Content" />
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Home\Controller" />
-      <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Home\View\Index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\php\phpstudy\WWW\byblog\ByBlog\Admin\View" />
@@ -517,7 +516,7 @@
       <option name="presentableId" value="Default" />
       <updated>1469078226845</updated>
       <workItem from="1469078228265" duration="11737000" />
-      <workItem from="1469152390425" duration="29645000" />
+      <workItem from="1469152390425" duration="30432000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1469079023997</created>
@@ -624,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469190411029</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="后台 登录">
+      <created>1469194562792</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1469194562792</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41382000" />
+    <option name="totallyTimeSpent" value="42169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
@@ -971,14 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1011,6 +1009,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Model/LoginModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -1021,18 +1027,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php">
+    <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html">
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="66">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>
