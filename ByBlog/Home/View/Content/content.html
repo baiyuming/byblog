@@ -6,15 +6,23 @@
 </head>
 <body>
 <include file = "./Public/Public_header"/>
-<div id="content" class="container">
-
+<div class="container">
+    <div class="row">
+        <div class="col s12 m8 l9">
+            <p>{$data.title}</p>
+            <p id="contentMd" style="display: none">{$data.content}</p>
+            <div id="content">
+            </div>
+        </div>
+        <div class="col s12 m4 l3">2</div>
+    </div>
 </div>
 <include file = "./Public/Public_footer"/>
 <include file = "./Public/Public_foot_script"/>
 <script src="__PUBLIC__/MarkdownEditor/WebMarked/marked.js"></script>
 <script>
     document.getElementById('content').innerHTML =
-            marked('# Marked in browser\n\nRendered by **marked**.');
+            marked(document.getElementById('contentMd').innerHTML);
 </script>
 </body>
 </html>

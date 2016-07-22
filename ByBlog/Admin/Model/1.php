@@ -8,7 +8,7 @@
 
 namespace Home\Model;
 use Think\Model;
-class FormModel extends Model {
+class BlogModel extends Model {
     // 定义自动验证
     protected $_validate    =   array(
         array('title','require','标题必须'),
