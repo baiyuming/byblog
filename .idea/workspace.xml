@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Blog/list.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" afterPath="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Css/bycss.css" afterPath="$PROJECT_DIR$/Public/Css/bycss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Css/materialize.css" afterPath="$PROJECT_DIR$/Public/Css/materialize.css" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +37,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listA.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="36" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listA.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="467">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -53,8 +80,8 @@
       <file leaf-file-name="Public_header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -65,16 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
               <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -145,8 +162,10 @@
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/list.html" />
         <option value="$PROJECT_DIR$/Public/Css/bycss.css" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" />
-        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" />
+        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" />
+        <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html" />
       </list>
     </option>
   </component>
@@ -317,6 +336,32 @@
               <option name="myItemId" value="View" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ByBlog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -437,7 +482,7 @@
       <option name="presentableId" value="Default" />
       <updated>1469078226845</updated>
       <workItem from="1469078228265" duration="11737000" />
-      <workItem from="1469152390425" duration="23616000" />
+      <workItem from="1469152390425" duration="25999000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1469079023997</created>
@@ -530,11 +575,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469180505910</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="后台 分页完成，导航url">
+      <created>1469187394796</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1469187394796</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35353000" />
+    <option name="totallyTimeSpent" value="37736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
@@ -582,7 +634,8 @@
     <MESSAGE value="前端 文章详情展示实现" />
     <MESSAGE value="前端 更换 表" />
     <MESSAGE value="前台展示 代码高亮" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台展示 代码高亮" />
+    <MESSAGE value="后台 分页完成，导航url" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台 分页完成，导航url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,20 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -876,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/Css/bycss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -900,18 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html">
+    <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="15" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -924,10 +947,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="467">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="36" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
