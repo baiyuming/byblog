@@ -3,6 +3,8 @@
 
 基于 `thinkPhp`
 
+UI 基于 `Materialize`
+
 使用 `markdown` 编辑器
 
 # 计划完成功能
