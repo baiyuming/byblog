@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>11</title>
+    <title>文章列表页 -- ByBlog</title>
     <include file = "./Public/Public_head_link"/>
 </head>
 <body>
 <include file = "./Public/Public_header"/>
-<div id="content" class="container">
-    <div class="row pt-60">
+<div id="content" class="container by-lista">
+    <div class="row pt-xlg">
         <div class="col s12">
             <table class="hoverable">
                 <thead>
                 <tr>
-                    <th data-field="id">文章标题</th>
-                    <th data-field="price">操作</th>
+                    <th data-field="id" class="f-20">文章标题</th>
+                    <th data-field="id" class="f-20">操作</th>
                 </tr>
                 </thead>
                 <tbody>
                     <volist name="list" id="vo">
                         <tr>
-                            <td>{$vo.a_title}</td>
-                            <td>
-                                <a href="#">编辑</a>
-                                <a href="#">删除</a>
+                            <td class="f-18" width="75%">{$vo.a_title} <span class="f-12 c-999">20{$vo.a_time|date="y/m/d H:i",###}</span></td>
+                            <td width="25%">
+                                <a class="waves-effect waves-light btn mr-lg">编辑</a>
+                                <a class="waves-effect waves-light btn">删除</a>
                             </td>
                         </tr>
                     </volist>

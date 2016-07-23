@@ -5,6 +5,8 @@ footer{
     width: 100%;
     bottom: 0;
 }
-
+.by-lista .waves-effect{
+    z-index: 0;
+}
 
 

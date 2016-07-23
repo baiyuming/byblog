@@ -3081,7 +3081,11 @@ span.badge.new:after {
 
 @font-face {
   font-family: "Material-Design-Icons";
-  src: url("../font/Material-Design-Icons.eot?#iefix") format("embedded-opentype"), url("../font/Material-Design-Icons.woff2") format("woff2"), url("../font/Material-Design-Icons.woff") format("woff"), url("../font/Material-Design-Icons.ttf") format("truetype"), url("../font/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
+  src: url("../font/material-design-icons/Material-Design-Icons.eot?#iefix") format("embedded-opentype"),
+  url("../font/material-design-icons/Material-Design-Icons.woff2") format("woff2"),
+  url("../font/material-design-icons/Material-Design-Icons.woff") format("woff"),
+  url("../font/material-design-icons/Material-Design-Icons.ttf") format("truetype"),
+  url("../font/material-design-icons/Material-Design-Icons.svg#Material-Design-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -6653,7 +6657,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto","Open Sans", Helvetica, Tahoma, Arial, STXihei, 华文细黑, SimSun, "Microsoft YaHei", 微软雅黑, 宋体, Heiti, 黑体, sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87)
 }

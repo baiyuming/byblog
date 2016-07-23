@@ -11,12 +11,12 @@ use Think\Model;
 
 
 class BlogModel extends Model {
-    // 定义自动验证
-    protected $_validate    =   array(
-        array('a_title','require','标题必须'),
-    );
-    // 定义自动完成
-    protected $_auto    =   array(
-        array('a_time','time',1,'function'),
-    );
+    public function addArticle($data){
+        // 添加文章
+        if(M('article')->add($data)){
+            return 1;
+        }else{
+            return 0;
+        }
+    }
 }
