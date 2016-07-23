@@ -3,55 +3,33 @@
 <head>
     <title>11</title>
     <include file = "./Public/Public_head_link"/>
-    <link rel="stylesheet" href="__PUBLIC__/MarkdownEditor/editor.css" />
-    <script type="text/javascript" src="__PUBLIC__/MarkdownEditor/editor.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/MarkdownEditor/marked.js"></script>
 </head>
 <body>
 <include file = "./Public/Public_header"/>
-<div id="content" class="container">
-    <form class="col s12 pt-60" method="post" action="__URL__/add">
-        <div class="row">
-            <div class="col s9">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="title" type="text" class="validate">
-                        <label for="title">文章标题</label>
-                    </div>
+<div id="content" class="home-index container">
+    <div class="row pt-xlg">
+        <div class="col s12 m12 l9">
+            <volist name="list" id="vo">
+                <div class="a-list">
+                    <p class="f-24 mb-none">
+                        <a class="waves-effect waves-light" href="{:U('Home/Content/content/id/'.$vo['a_id'])}">{$vo.a_title}</a>
+                    </p>
+                    <p class="c-666">{$vo.a_remark}</p>
+                    <p class="c-999">20{$vo.a_time|date="y/m/d H:i",###}发表</p>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <p class="f-16 c-999">文章内容</p>
-                        <textarea id="textarea" class="materialize-textarea"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="col s3">
-                <button class="btn waves-effect waves-light" type="submit" name="action">发表文章
-                    <i class="by bym-feiji right"></i>
-                </button>
-            </div>
+            </volist>
         </div>
-    </form>
+        <div class="col s12 m12 l3">
+            1111
+        </div>
+    </div>
+
+    <div class="pagination center">
+        {$page}
+    </div>
 </div>
 <include file = "./Public/Public_footer"/>
 <include file = "./Public/Public_foot_script"/>
-<script>
-    var editor = new Editor();
-    editor.render();
-//    var pre = document.getElementById('pre');
-//    console.log(editor.codemirror.getValue());
-//    function aa() {
-//        alert(editor.codemirror.getValue());
-//        console.log(editor.codemirror.getValue());
-//        pre.innerHTML = editor.codemirror.getValue();
-//    }
-//    function editorFun() {
-//        console.log(editor.codemirror.getValue());
-//        pre.innerHTML = editor.codemirror.getValue();
-//    }
-
-</script>
 </body>
 </html>
 

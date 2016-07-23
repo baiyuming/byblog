@@ -1,4 +1,13 @@
 @charset "utf-8";
-
-
-
+footer.page-footer{
+    margin-top: 30px;
+}
+.home-index .a-list{
+    border-bottom: 1px dashed #999;
+}
+.home-index .a-list a{
+    color: #ee6e73;
+}
+.home-index .a-list a:hover{
+    color: #b71c1c;
+}

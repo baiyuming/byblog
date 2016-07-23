@@ -34,16 +34,7 @@ class BlogController extends Controller {
         $this->assign('list',$article);// 赋值数据集
         $this->assign('page',$show);// 赋值分页输出
         $this->display();
-
-
-//        $Article   =   M('Article');
-//        $count = $Article->count();
-//        $Page  = new \Think\Page($count,10);
-//        $p = new Page($count, 10);
-//        $page = $p->show();
-//        // 读取数据
-//        $list = $Article -> limit($p->firstRow.','.$p->listRows) -> field('a_title') -> select();
-        //var_dump($list);
+        
     }
 
 }
