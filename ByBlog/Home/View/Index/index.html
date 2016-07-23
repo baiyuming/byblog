@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>11</title>
+    <title>首页 - ByBlog </title>
+    <meta name="keywords" content="ByBlog,markdown,thinkphp,博客系统,前端博客" />
+    <meta name="description" content="ByBlog,markdown,thinkphp,博客系统,前端博客" />
     <include file = "./Public/Public_head_link"/>
 </head>
 <body>
@@ -9,7 +11,7 @@
 <div id="content" class="home-index container">
     <div class="row pt-xlg">
         <div class="col s12 m12 l9">
-            <volist name="list" id="vo">
+            <volist name="data" id="vo">
                 <div class="a-list">
                     <p class="f-24 mb-none">
                         <a class="waves-effect waves-light" href="{:U('Home/Content/content/id/'.$vo['a_id'])}">{$vo.a_title}</a>

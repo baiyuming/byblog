@@ -13,7 +13,7 @@ class IndexController extends Controller {
         $show  = $Page->show();
         $article = M('article') ->order('a_id desc') -> field('a_id,a_title,a_remark,a_time,a_keyword,a_hit') ->limit($Page->firstRow.','.$Page->listRows)->select();
         // 赋值数据集
-        $this->assign('list',$article);
+        $this->assign('data',$article);
         // 赋值分页输出
         $this->assign('page',$show);
         $this->display();
