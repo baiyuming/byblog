@@ -6,11 +6,11 @@
  * Time: 21:15
  */
 
-namespace User\Model;
+namespace Admin\Model;
 use Think\Model;
 class UserModel extends Model{
-######################################用户操作数据模型######################################
     public function login($name, $password){
+
         // 登陆验证
         if ($name == '' || $password == '') {
             return 0;

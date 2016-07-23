@@ -9,16 +9,21 @@ class LoginController extends Controller {
     }
     public function login(){
         // 登陆用户名提交判断
-        $name = I('post.name');
+        $name = I('post.username');
         $password = I('post.password');
+
         $row = D('User')->login($name,$password);
         // 用D方法在数据库进行验证后返回
         if($row == 1){
-            $this->redirect('User/Index/index');
+            $this->redirect('Blog/listA');
         }elseif($row == 0){
             jumpError('用户名和密码不能为空！请重新输入！');
         }else{
             jumpError('用户名或者密码错误，请重新输入');
         }
+    }
+    public function lll(){
+        $name = I('post.username');
+        var_dump($name);
     }
 }
