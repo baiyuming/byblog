@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
