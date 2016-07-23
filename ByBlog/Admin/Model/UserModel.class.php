@@ -23,13 +23,6 @@ class UserModel extends Model{
                 'ip' => get_client_ip());
             // 更新数据库文件
             M('user')->where(array('name' => $name))->save($data);
-            // 验证文件写入SESSION;
-            SESSION('uid', $login['id']);
-            SESSION('user', $login['user']);
-            SESSION('name', $login['name']);
-            SESSION('class', $login['class']);
-            SESSION('last_time', date('Y-m-d H:i:s', $login['last_time']));
-            SESSION('ip', $login['loginip']);
             return 1;
         } else {
             return 2;

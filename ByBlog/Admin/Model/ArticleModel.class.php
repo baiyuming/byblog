@@ -10,7 +10,7 @@ namespace Admin\Model;
 use Think\Model;
 
 
-class BlogModel extends Model {
+class ArticleModel extends Model {
     public function addArticle($data){
         // 添加文章
         if(M('article')->add($data)){
