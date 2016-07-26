@@ -16,9 +16,13 @@
         <div class="col s12 m8 l9">
             <h3 class="">{$data.a_title}</h3>
             <p class="c-999">20{$data.a_time|date="y/m/d H:i",###}发表</p>
+            <hr>
             <p id="contentMd" style="display: none">{$data.a_content}</p>
             <div id="content">
             </div>
+            <!-- 多说评论框 start -->
+            <div class="ds-thread" data-thread-key="{$data.a_id}" data-title="{$data.a_title}" data-url="{:U('Home/Content/content/id/'.$vo['a_id'])}"></div>
+            <!-- 多说评论框 end -->
         </div>
         <div class="col s12 m4 l3">2</div>
     </div>
@@ -29,6 +33,17 @@
 <script>
     document.getElementById('content').innerHTML =
             marked(document.getElementById('contentMd').innerHTML);
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    var duoshuoQuery = {short_name:"weberpub"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+<!-- 多说公共JS代码 end -->
 </script>
 </body>
 </html>

@@ -19,7 +19,7 @@ class BlogController extends Controller {
             'a_ip' => get_client_ip(),
         );
         if(D('Article')->addArticle($data)){
-            $this->success('发表完成！','lista');
+            $this->success('发表完成！','listA');
         }else{
             $this->error('发表失败！');
         }
@@ -41,7 +41,7 @@ class BlogController extends Controller {
         // 赋值分页输出
         $this->assign('page',$show);
         $this->display();
-        
+
     }
 
 }
