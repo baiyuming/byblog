@@ -32,7 +32,7 @@
 <script src="__PUBLIC__/MarkdownEditor/WebMarked/marked.js"></script>
 <script>
     document.getElementById('content').innerHTML =
-            marked(document.getElementById('contentMd').innerHTML);
+            marked(document.getElementById('contentMd').innerText);
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     var duoshuoQuery = {short_name:"weberpub"};
     (function() {
