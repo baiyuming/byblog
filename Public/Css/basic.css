@@ -339,7 +339,11 @@ a:hover,a:visited,a:active,a:focus{text-decoration: none;}
 .pl-none{padding-left: 0px !important;}
 .bg-fff{ background-color: #ffffff !important;}
 .bg-fa{background-color: #fafafa;}
-
+p{font-size: 16px}
+h1{font-size: 2.9rem}
+h2{font-size: 2.5rem}
+h3{font-size: 2.1rem;}
+h4{font-size: 1.7rem;}
 nav .button-collapse i{
     padding-left: 1rem;
 }
