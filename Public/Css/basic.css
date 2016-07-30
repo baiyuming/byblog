@@ -354,3 +354,6 @@ nav .button-collapse i{
     background: #ee6e73;
     color: #fff;
 }
+.b-b{
+    border-bottom: 1px dotted #2ab7a9;
+}

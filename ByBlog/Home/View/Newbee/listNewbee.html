@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>添加牛人博客地址 -- ByBlog </title>
+    <include file = "./Public/Public_head_link"/>
+</head>
+<body>
+<include file = "./Public/Public_header"/>
+<div class="container newbee">
+    <div class="row">
+        <div class="col s9">
+            <blockquote>
+                <p class="f-16">这里都是个人收藏的一些前端大牛的博客地址，排名是按照添加的顺序。。。有空多去看看他们的博客，
+                    可以让我们的视野更加宽广，学习到更多的东西。。。。</p>
+            </blockquote>
+            <volist name="list" id="vo">
+                <div class="b-b">
+                    <p class="f-24 mb-none">
+                        <a href="{$vo.n_url}" target="_blank">
+                            {$vo.n_name}的博客
+                        </a>
+                        <span class="c-aaa f-12">20{$vo.n_time|date="y/m/d",###} 添加</span>
+                    </p>
+                    <p class="c-777 f-14">简介：{$vo.n_remark}</p>
+                </div>
+
+            </volist>
+        </div>
+        <div class="col s3 pl-60">
+            222222222222222
+        </div>
+    </div>
+</div>
+<include file = "./Public/Public_footer"/>
+<include file = "./Public/Public_foot_script"/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
