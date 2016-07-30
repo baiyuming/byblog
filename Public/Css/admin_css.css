@@ -8,5 +8,7 @@ footer{
 .by-lista .waves-effect{
     z-index: 0;
 }
-
+.newbee .btn-floating i{
+    font-size: 1.2rem;
+}
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>添加牛人博客地址 -- ByBlog </title>
+    <include file = "./Public/Public_head_link"/>
+</head>
+<body>
+<include file = "./Public/Public_header"/>
+<div id="content" class="container newbee">
+    <div class="row">
+        <form class="col s6" method="post" action="__URL__/insertNewbee">
+            <p class="f-24">添加博客</p>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="n_name" name="n_name" type="text" class="validate">
+                    <label for="n_name">姓名</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea name="n_remark" id="n_remark" class="materialize-textarea"></textarea>
+                    <label for="n_remark">简介</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="n_url" name="n_url" type="text" class="validate">
+                    <label for="n_url">博客地址</label>
+                </div>
+            </div>
+            <div class="right-align">
+                <button class="btn waves-effect waves-light" type="submit" name="action">添加地址
+                    <i class="by bym-feiji right"></i>
+                </button>
+            </div>
+        </form>
+        <div class="col s6 pl-60">
+            <p class="f-24">列表展示（按添加先后排序）</p>
+            <volist name="list" id="vo">
+                <div class="col s8 p-none">
+                    <a href="{$vo.n_url}">
+                        {$vo.n_name}的博客
+                        <span class="f-12 c-999">20{$vo.n_time|date="y/m/d",###}添加</span>
+                    </a>
+                </div>
+                <div class="col s4 right-align">
+                    <a class="waves-effect waves-light mr-lg">
+                        <i class="by bym-bianji"></i></a>
+                    <a class="waves-effect waves-light">
+                        <i class="by bym-icon54"></i>
+                    </a>
+                </div>
+            </volist>
+        </div>
+    </div>
+</div>
+<include file = "./Public/Public_footer"/>
+<include file = "./Public/Public_foot_script"/>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
