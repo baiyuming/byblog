@@ -8,7 +8,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 class BlogController extends Controller {
-
+    // 添加博客 方法
     public function insert(){
         $time = I('post.a_time')?strtotime(I('post.a_time')):time();
         $data = array (
@@ -25,7 +25,43 @@ class BlogController extends Controller {
             $this->error('发表失败！');
         }
     }
+    public function del($id=0){
+        // 实例化Article对象
+        $Article = M("Article"); 
+        //根据id删除
+        $Article->where('a_id = '.$id)->delete();
+        if($Article) { // 根据条件保存修改的数据
+            $this->success('文章已删除！',"../../listA");
+        }else{
+            $this->error('删除失败！');
+        }
+    }
+    //编辑博客方法
+    public function edit($id=0){
+        $Article   =   M('Article');
+        $this->assign('data',$Article->find($id));
+        $this->display();
+    }
+    // 更新博客
+    public function update(){
+        $Article = M("Article");
+        $time = I('post.a_time')?strtotime(I('post.a_time')):time();
+        $data = array (
+            'a_id' => I('post.a_id'),
+            'a_title' => I('post.a_title'),
+            'a_keyword' => I('post.a_keyword'),
+            'a_remark' => I('post.a_remark'),
+            'a_content' => I('post.a_content'),
+            'a_time' => $time,
+        );
 
+        if($Article->save($data)) { // 根据条件保存修改的数据
+            $this->success('编辑成功！','listA');
+        }else{
+            $this->error('编辑失败！');
+        }
+    }
+    // 列表展示博客
     public function listA(){
 
         // 文章列表
@@ -36,7 +72,7 @@ class BlogController extends Controller {
         $Page  = new \Think\Page($count,10);
         // 分页显示输出
         $show  = $Page->show();
-        $article = M('article') ->order('a_time desc') -> field('a_title,a_time') ->limit($Page->firstRow.','.$Page->listRows)->select();
+        $article = M('article') ->order('a_time desc') -> field('a_id,a_title,a_time') ->limit($Page->firstRow.','.$Page->listRows)->select();
         // 赋值数据集
         $this->assign('list',$article);
         // 赋值分页输出

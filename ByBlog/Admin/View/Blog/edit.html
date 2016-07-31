@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>11</title>
+    <include file = "./Public/Public_head_link"/>
+    <link rel="stylesheet" href="__PUBLIC__/MarkdownEditor/editor.css" />
+    <script type="text/javascript" src="__PUBLIC__/MarkdownEditor/editor.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/MarkdownEditor/marked.js"></script>
+</head>
+<body>
+<include file = "./Public/Public_header"/>
+<div id="content" class="container">
+    <form class="col s12 pt-60" method="post" action="__URL__/update">
+        <input type="hidden" name="a_id" value="{$data.a_id}">
+        <div class="row">
+            <div class="col s9">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="title" name="a_title" type="text" class="validate" value="{$data.a_title}">
+                        <label for="title">文章标题</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="remark" name="a_remark" type="text" class="validate" value="{$data.a_remark}">
+                        <label for="remark">文章描述</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <p class="f-16 c-999">文章内容</p>
+                        <textarea name="a_content" id="textarea" class="materialize-textarea">{$data.a_content}</textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="col s3">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="keyword" name="a_keyword" type="text" class="validate" value="{$data.a_keyword}">
+                        <label for="keyword">标签（关键字）</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="a_time" name="a_time" type="text" class="validate" value="20{$data.a_time|date='y/m/d H:i',###}">
+                        <label for="a_time">时间</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">更新文章
+                    <i class="by bym-feiji right"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+<include file = "./Public/Public_footer"/>
+<include file = "./Public/Public_foot_script"/>
+<script>
+    var editor = new Editor();
+    editor.render();
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

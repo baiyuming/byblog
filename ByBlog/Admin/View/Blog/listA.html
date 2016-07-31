@@ -21,8 +21,18 @@
                         <tr>
                             <td class="f-18" width="75%">{$vo.a_title} <span class="f-12 c-999">20{$vo.a_time|date="y/m/d H:i",###}</span></td>
                             <td width="25%">
-                                <a class="waves-effect waves-light btn mr-lg">编辑</a>
-                                <a class="waves-effect waves-light btn">删除</a>
+                                <a href="{:U('Admin/Blog/edit/id/'.$vo['a_id'])}" class="waves-effect waves-light btn mr-lg">编辑</a>
+                                <a href="#modal{$vo.a_id}" class="modal-trigger waves-effect waves-light btn">删除</a>
+                                <div id="modal{$vo.a_id}" class="modal">
+                                    <div class="modal-content">
+                                        <h4>确定删除</h4>
+                                        <p>{$vo.a_title} 这篇文章？？？？</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a onclick="$('.modal').closeModal();" class="waves-effect waves-light btn ml-lg ">取消</a>
+                                        <a href="{:U('Admin/Blog/del/id/'.$vo['a_id'])}" class="waves-effect waves-light btn red">同意</a>
+                                    </div>
+                                </div>
                             </td>
                         </tr>
                     </volist>
@@ -36,6 +46,12 @@
 </div>
 <include file = "./Public/Public_footer"/>
 <include file = "./Public/Public_foot_script"/>
+<script>
+    $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+    });
+</script>
 </body>
 </html>
 
