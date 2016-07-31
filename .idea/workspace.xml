@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listA.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listA.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="550">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -191,8 +191,8 @@
         <option value="$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/edit.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/BlogController.class.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -653,7 +653,7 @@
       <workItem from="1469778170236" duration="980000" />
       <workItem from="1469785902797" duration="5501000" />
       <workItem from="1469867000706" duration="5526000" />
-      <workItem from="1469940052449" duration="8401000" />
+      <workItem from="1469940052449" duration="8532000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1469079023997</created>
@@ -956,11 +956,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469949498634</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="后台删除功能实现">
+      <created>1469949568118</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1469949568118</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105505000" />
+    <option name="totallyTimeSpent" value="105636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1020,9 +1027,9 @@
     <MESSAGE value="牛人博客 前台 添加keyword" />
     <MESSAGE value="后台 添加 可手动输入博客书写时间 改变文章排序为按时间顺序" />
     <MESSAGE value="readme 添加演示地址" />
-    <MESSAGE value="后台删除功能实现" />
     <MESSAGE value="readme 更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme 更新" />
+    <MESSAGE value="后台删除功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台删除功能实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1347,18 +1354,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
