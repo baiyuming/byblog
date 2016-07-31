@@ -8,22 +8,33 @@ class LoginController extends Controller {
         $this->display();
     }
     public function login(){
-        // 登陆用户名提交判断
-        $name = I('post.username');
-        $password = I('post.password');
+        // 判断是否是post提交
+        if(!IS_POST) halt('页面错误');
 
-        $row = D('User')->login($name,$password);
-        // 用D方法在数据库进行验证后返回
-        if($row == 1){
-            $this->redirect('Blog/listA');
-        }elseif($row == 0){
-            jumpError('用户名和密码不能为空！请重新输入！');
-        }else{
-            jumpError('用户名或者密码错误，请重新输入');
+        $db = M('user');
+        // 根据提交的用户名 查询数据库
+        $user = $db -> where(array('name' => I('post.username'))) -> find();
+
+        if(!$user || $user['password'] != I('post.password','','md5')){
+            $this -> error('账号或密码错误');
         }
-    }
-    public function lll(){
-        $name = I('post.username');
-        var_dump($name);
+
+        $data = array(
+            'id' => $user['id'],
+            'last_time' => time(),
+            'ip' => get_client_ip()
+        );
+        // 更新登录时间 和 ip
+        $db -> save($data);
+
+        // 写入session
+        session('uid',$user['id']);
+        session('username',$user['name']);
+        session('username',$user['name']);
+        session('logintime',date('Y-m-d H:i:s'),$user['last_time']);
+        session('ip',$user['ip']);
+        // 跳转到后台列表页
+        redirect('../Blog/listA');
+
     }
 }

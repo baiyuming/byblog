@@ -7,7 +7,7 @@
  */
 namespace Admin\Controller;
 use Think\Controller;
-class BlogController extends Controller {
+class BlogController extends CommonController {
     // 添加博客 方法
     public function insert(){
         $time = I('post.a_time')?strtotime(I('post.a_time')):time();

@@ -7,7 +7,7 @@
  */
 namespace Admin\Controller;
 use Think\Controller;
-class NewbeeController extends Controller {
+class NewbeeController extends CommonController {
 
     public function insertNewbee(){
         $data = array (
