@@ -11,7 +11,7 @@ class IndexController extends Controller {
         $Page  = new \Think\Page($count,15);
         // 分页显示输出
         $show  = $Page->show();
-        $article = M('article') ->order('a_id desc') -> field('a_id,a_title,a_remark,a_time,a_keyword,a_hit') ->limit($Page->firstRow.','.$Page->listRows)->select();
+        $article = M('article') ->order('a_time desc') -> field('a_id,a_title,a_remark,a_time,a_keyword,a_hit') ->limit($Page->firstRow.','.$Page->listRows)->select();
         // 赋值数据集
         $this->assign('data',$article);
         // 赋值分页输出

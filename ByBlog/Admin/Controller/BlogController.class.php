@@ -10,12 +10,13 @@ use Think\Controller;
 class BlogController extends Controller {
 
     public function insert(){
+        $time = I('post.a_time')?strtotime(I('post.a_time')):time();
         $data = array (
             'a_title' => I('post.a_title'),
             'a_keyword' => I('post.a_keyword'),
             'a_remark' => I('post.a_remark'),
             'a_content' => I('post.a_content'),
-            'a_time' => time(),
+            'a_time' => $time,
             'a_ip' => get_client_ip(),
         );
         if(D('Article')->addArticle($data)){
@@ -35,7 +36,7 @@ class BlogController extends Controller {
         $Page  = new \Think\Page($count,10);
         // 分页显示输出
         $show  = $Page->show();
-        $article = M('article') ->order('a_id desc') -> field('a_title,a_time') ->limit($Page->firstRow.','.$Page->listRows)->select();
+        $article = M('article') ->order('a_time desc') -> field('a_title,a_time') ->limit($Page->firstRow.','.$Page->listRows)->select();
         // 赋值数据集
         $this->assign('list',$article);
         // 赋值分页输出
