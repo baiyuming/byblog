@@ -10,7 +10,7 @@ UI 基于 `Materialize`
 使用 `markdown` 编辑器
 
 # 计划完成功能
-- session 控制
+
 - 前台归档页面
 - 前台首页展示
 - 文章标签功能
@@ -35,3 +35,4 @@ UI 基于 `Materialize`
 - 登录
 - 文章编辑功能
 - 文章删除功能
+- session 控制
