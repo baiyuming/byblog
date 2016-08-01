@@ -22,6 +22,11 @@
             </volist>
         </div>
         <div class="col s12 m12 l3">
+            <div>
+                <volist name="count" id="vo2">
+                    <p class="f-18 m-none">{$vo2.a_time} （{$vo2.a_sum}）</p>
+                </volist>
+            </div>
             <!-- 多说热评文章 start -->
             <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
             <!-- 多说热评文章 end -->

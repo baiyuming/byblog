@@ -16,6 +16,15 @@ class IndexController extends Controller {
         $this->assign('data',$article);
         // 赋值分页输出
         $this->assign('page',$show);
+
+        $Count = M();
+        $sql = "SELECT DATE_FORMAT(FROM_UNIXTIME(a_time),'%Y%m') a_time, 
+                COUNT(1) a_sum
+                FROM `by_article`
+                GROUP BY DATE_FORMAT(FROM_UNIXTIME(a_time),'%Y%m') desc";
+        $res = $Count->query($sql);
+        $this -> assign('count',$res);
+
         $this->display();
     }
 }
