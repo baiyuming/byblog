@@ -1,0 +1,5 @@
+# robots.txt generated at http://tool.chinaz.com/robots/
+User-agent: *
+Disallow:
+Disallow: /ByBlog/Admin
+Sitemap: http://www.weber.pub/sitemap.xml
