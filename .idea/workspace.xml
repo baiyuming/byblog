@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Img/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_head_link.html" afterPath="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_head_link.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html" afterPath="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Css/basic.css" afterPath="$PROJECT_DIR$/Public/Css/basic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Js/byjs.js" afterPath="$PROJECT_DIR$/Public/Js/byjs.js" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,28 +49,38 @@
       <file leaf-file-name="Public_header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="220">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Public_head_link.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_head_link.html">
+      <file leaf-file-name="basic.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/Css/basic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="60" />
+            <state relative-caret-position="489">
+              <caret line="343" column="1" selection-start-line="343" selection-start-column="1" selection-end-line="343" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Public_head_link.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html">
+      <file leaf-file-name="home_css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Css/home_css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="352">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="byjs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/Js/byjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -131,9 +140,7 @@
         <option value="$PROJECT_DIR$/Public/Css/admin_css.css" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Newbee/addNewbee.html" />
         <option value="$PROJECT_DIR$/ByBlog/Home/Controller/NewbeeController.class.php" />
-        <option value="$PROJECT_DIR$/Public/Css/basic.css" />
         <option value="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_header.html" />
-        <option value="$PROJECT_DIR$/Public/Js/byjs.js" />
         <option value="$PROJECT_DIR$/ByBlog/Home/View/Newbee/listNewbee.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Blog/listA.html" />
         <option value="$PROJECT_DIR$/ByBlog/Home/Common/SessionController.class.php" />
@@ -155,6 +162,8 @@
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_head_link.html" />
         <option value="$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html" />
+        <option value="$PROJECT_DIR$/Public/Js/byjs.js" />
+        <option value="$PROJECT_DIR$/Public/Css/basic.css" />
       </list>
     </option>
   </component>
@@ -245,7 +254,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Img" />
+              <option name="myItemId" value="Js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="byblog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -482,14 +509,7 @@
       <workItem from="1469940052449" duration="17986000" />
       <workItem from="1470016481764" duration="7889000" />
       <workItem from="1470103017828" duration="3569000" />
-      <workItem from="1470117805721" duration="630000" />
-    </task>
-    <task id="LOCAL-00005" summary="头部样式 字体库更换为 阿里">
-      <created>1469097829372</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1469097829372</updated>
+      <workItem from="1470117805721" duration="1552000" />
     </task>
     <task id="LOCAL-00006" summary="加入markdown">
       <created>1469164426849</created>
@@ -827,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470116387789</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="favicon.ico">
+      <created>1470118444984</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1470118444984</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127178000" />
+    <option name="totallyTimeSpent" value="128100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -868,7 +895,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="样式 才分前后台" />
     <MESSAGE value="说明文档 计划任务" />
     <MESSAGE value="前台首页展示" />
     <MESSAGE value="前台 关键字 描述 SEO优化" />
@@ -893,7 +919,8 @@
     <MESSAGE value="readme 更新" />
     <MESSAGE value="新增百度主动推送网站链接功能" />
     <MESSAGE value="robots.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="robots.txt" />
+    <MESSAGE value="favicon.ico" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon.ico" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1004,13 +1031,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Newbee/listNewbee.html" />
-    <entry file="file://$PROJECT_DIR$/Public/Css/basic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="356" column="4" selection-start-line="356" selection-start-column="1" selection-end-line="356" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/Public/Public_header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1025,24 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Js/byjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/NewbeeController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Css/home_css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1212,10 +1218,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
+    <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="110">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1228,10 +1234,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ByBlog/Home/View/Public/Public_head_link.html">
+    <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="53" />
+        <state relative-caret-position="220">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Js/byjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Css/home_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Css/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="343" column="1" selection-start-line="343" selection-start-column="1" selection-end-line="343" selection-end-column="1" />
           <folding />
         </state>
       </provider>

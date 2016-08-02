@@ -5,6 +5,9 @@
 // 初始化导航信息
 
 $(".button-collapse").sideNav();
+$('.button-collapse').click(function () {
+    $('.side-nav').css('left','0%');
+});
 // weber.pub
 var _hmt = _hmt || [];
 (function() {
