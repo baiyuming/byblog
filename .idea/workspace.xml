@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a98da2bb-6f0c-4d69-a72f-33682820b482" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php" afterPath="$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ByBlog/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/ByBlog/Home/View/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="byblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Public_header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContentController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -185,7 +184,6 @@
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/LoginController.class.php" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/CommonController.class.php" />
         <option value="$PROJECT_DIR$/ByBlog/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/Controller/PushController.class.php" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Push/index.html" />
         <option value="$PROJECT_DIR$/ByBlog/Admin/View/Public/Public_header.html" />
@@ -196,6 +194,7 @@
         <option value="$PROJECT_DIR$/Public/Css/basic.css" />
         <option value="$PROJECT_DIR$/ByBlog/Home/Controller/ContentController.class.php" />
         <option value="$PROJECT_DIR$/ByBlog/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -489,14 +488,7 @@
       <workItem from="1470103017828" duration="3569000" />
       <workItem from="1470117805721" duration="1678000" />
       <workItem from="1470125725587" duration="2000" />
-      <workItem from="1470188799698" duration="566000" />
-    </task>
-    <task id="LOCAL-00007" summary="后台添加数据成功">
-      <created>1469167316410</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1469167316410</updated>
+      <workItem from="1470188799698" duration="627000" />
     </task>
     <task id="LOCAL-00008" summary="加入 脚部版权信息">
       <created>1469168213560</created>
@@ -834,11 +826,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470119383269</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="新增文章点击次数统计">
+      <created>1470189393955</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1470189393956</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128794000" />
+    <option name="totallyTimeSpent" value="128855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -875,7 +874,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="前台首页展示" />
     <MESSAGE value="前台 关键字 描述 SEO优化" />
     <MESSAGE value="前台 详情页 展示发表时间" />
     <MESSAGE value="前台 添加多说评论" />
@@ -900,7 +898,8 @@
     <MESSAGE value="robots.txt" />
     <MESSAGE value="favicon.ico" />
     <MESSAGE value="移动端 导航bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动端 导航bug" />
+    <MESSAGE value="新增文章点击次数统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增文章点击次数统计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,13 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ByBlog/Admin/Controller/PushController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1245,6 +1237,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
