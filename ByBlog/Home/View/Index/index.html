@@ -17,7 +17,7 @@
                         <a class="waves-effect waves-light" href="{:U('Home/Content/content/id/'.$vo['a_id'])}">{$vo.a_title}</a>
                     </p>
                     <p class="c-666">{$vo.a_remark}</p>
-                    <p class="c-999">20{$vo.a_time|date="y/m/d H:i",###}发表</p>
+                    <p class="c-999">20{$vo.a_time|date="y/m/d H:i",###}发表 &nbsp; 点击量：{$vo.a_hit}</p>
                 </div>
             </volist>
         </div>
